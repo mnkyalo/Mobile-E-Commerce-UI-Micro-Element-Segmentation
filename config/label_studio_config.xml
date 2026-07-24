@@ -1,0 +1,16 @@
+<View>
+  <Header value="Task Instructions:"/>
+  <Text name="instructions" value="Select a commerce element tag, then click consecutive points around the targeted interface component on the smartphone screen."/>
+  
+  <PolygonLabels name="label" toName="image">
+    <Label value="Product_Card" background="#FFD700"/>
+    <Label value="Product_Thumbnail" background="#FF69B4"/>
+    <Label value="Price_Tag" background="#00BFFF"/>
+    <Label value="Search_Filter_Bar" background="#32CD32"/>
+    <Label value="Add_To_Cart_Button" background="#00F5FF"/>
+    <Label value="Trust_Review_Badge" background="#FF4500"/>
+    <Label value="Device_Frame" background="#8A2BE2"/>
+  </PolygonLabels>
+
+  <Image name="image" value="$image"/>
+</View>
